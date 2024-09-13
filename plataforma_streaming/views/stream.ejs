@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title><%= videoTitle %> - Minha Plataforma de Streaming</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Meta tag para responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="stream-page">
+    <div class="player-container">
+        <div class="player-header">
+            <a href="/content" class="back-button">← Voltar</a>
+            <h1 class="video-title"><%= videoTitle %></h1>
+        </div>
+        <video id="videoPlayer" controls autoplay>
+            <source src="/video?id=<%= videoId %>" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+    <script>
+        // Script opcional para funcionalidades adicionais
+    </script>
+</body>
+</html>

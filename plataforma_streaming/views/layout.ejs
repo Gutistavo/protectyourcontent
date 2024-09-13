@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Plataforma de Streaming</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Meta tag para responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="logo">Minha Plataforma</div>
+        <% if (email) { %>
+        <nav>
+            <a href="/content">Início</a>
+            <a href="/logout">Sair</a>
+        </nav>
+        <div class="user-info">
+            <div class="badge"><%= initial %></div>
+            <span><%= email %></span>
+        </div>
+        <% } %>
+    </header>
+    <main>
+        <!-- Renderiza o conteúdo passado -->
+        <%- body %>
+    </main>
+</body>
+</html>

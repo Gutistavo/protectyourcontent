@@ -1,0 +1,21 @@
+<%- include('layout', { 
+    email: email, 
+    initial: initial, 
+    body: `
+        <div class="content-container">
+            <h2>Bem-vindo, ${email}!</h2>
+            <div class="video-section">
+                <h3>Assista agora</h3>
+                <div class="video-list">
+                    ${videos.map(video => `
+                        <div class="video-item">
+                            <img src="${video.thumbnail}" alt="${video.title}">
+                            <div class="video-title">${video.title}</div>
+                            <a href="/watch?id=${video.id}" class="play-button">▶</a>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+    ` 
+}) %>

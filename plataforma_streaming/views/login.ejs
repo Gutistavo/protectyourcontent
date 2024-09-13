@@ -1,0 +1,14 @@
+<%- include('layout', { 
+    email: null, 
+    initial: null, 
+    body: `
+        <div class="login-container">
+            <h1>Bem-vindo à Minha Plataforma de Streaming</h1>
+            ${error ? `<div class="error-message">${error}</div>` : ''}
+            <form action="/login" method="post">
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    ` 
+}) %>
