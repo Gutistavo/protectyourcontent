@@ -25,7 +25,7 @@
 <h2>Contexto</h2>
 
 <p>
-    Este protótipo foi desenvolvido como uma resposta direta ao que consideramos um abuso de entidades como a Anatel, que propôs um orçamento de apenas R$7.000,00 para o desenvolvimento de soluções que protegem bilhões de reais em conteúdo digital. Esse valor é irrisório em comparação ao prejuízo enfrentado pelas empresas de streaming devido à pirataria, e este projeto demonstra que é possível criar uma solução eficiente, mas com investimentos dignos que reflitam a complexidade e a importância da proteção do conteúdo.
+    Este protótipo foi desenvolvido como uma resposta direta ao que consideramos um abuso de entidades como a Anatel, que propôs um orçamento de apenas R$7.000,00 para o desenvolvimento de soluções que protegem bilhões de reais em conteúdo digital.
 </p>
 
 <h2>Personalização e Alterações</h2>
